@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 	int i,j,k,n;
 	printf("Enter The Number of Rows:");
