@@ -13,7 +13,7 @@ int countdigits(int n)
 main()
 {
 	int n,count;
-	printf("\n Enter Number of Digits:");
+	printf("\n Enter Any Number :");
 	scanf("%d",&n);
 	count=countdigits(n);
 	printf("\n Number of Digits In %d is:%d",n,count);
