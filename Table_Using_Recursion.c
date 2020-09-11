@@ -11,10 +11,10 @@ int table(int n,int i)
 	return table(n,i+1);
 }
 }
-main()
+int main()
 {
 	int n,i=1;
-	printf("\n Enter Number of Digits:");
+	printf("\n Enter Number the No. : ") 
 	scanf("%d",&n);
 	table(n,i);
 }
