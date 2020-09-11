@@ -8,15 +8,15 @@ int main()
 	p2=fopen("hp.text","w");
 	if(p1==NULL||p2==NULL)
 	{
-		printf("\n Some problem occured...");
-		printf("\n Unable to continue...");
+		printf("\n Some problem occured!!");
+		printf("\n Unable to continue!!");
 		exit(1);
 	}
 	while((ch=fgetc(p1))!=EOF)
 	{
 		fputc(ch,p2);
 	}
-	printf("\n FILE COPIED SUCCESSFULLY....");
+	printf("\n FILE COPIED SUCCESSFULLY...");
 	fclose(p1);
 	fclose(p2);
 	printf("\n Content from file hp.txt");
