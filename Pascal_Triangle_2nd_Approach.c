@@ -16,10 +16,10 @@ int NCR(int n,int r)
 	c=factorial(n)/(factorial(r)*factorial(n-r));
 	return c;
 }
-main(satyam)
+int main(satyam)
 {
 	int i,j,k,n;
-	printf("\n Enter Number Of rows:");
+	printf("\n Enter Number Of rows :");
 	scanf("%d",&n);
 	for(i=0;i<=n;i++)
 	{
