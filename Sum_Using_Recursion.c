@@ -8,10 +8,10 @@ int sum(int n)
 	else
 	return n+sum(n-1);
 }
-main()
+int main()
 {
 	int n,count;
-	printf("\n Enter Number of Digits:");
+	printf("\n Enter Number of Digits : ");
 	scanf("%d",&n);
 	count=sum(n);
 	printf("\n sum of numbers upto %d is:%d",n,count);
