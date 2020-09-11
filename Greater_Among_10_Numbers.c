@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 	int a[10],i,l=0;
 	printf("\n ENTER ANY 10 VALUES:");
