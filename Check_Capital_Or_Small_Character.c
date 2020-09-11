@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(satyamTripathi)
-{
+{    
 	int y;
 	char ch=y;
 
