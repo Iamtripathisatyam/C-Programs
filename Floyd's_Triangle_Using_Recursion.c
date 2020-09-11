@@ -13,7 +13,7 @@ int floyds(int n)
 int main()
 {
 	int n;
-	printf("\n Enter Number Of terms:");
+	printf("\n Enter Number Of Terms :");
 	scanf("%d",&n);
 	floyds(n);
 	
