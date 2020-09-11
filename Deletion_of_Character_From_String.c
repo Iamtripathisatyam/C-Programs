@@ -2,14 +2,14 @@
 int main()
 {
 	int a[100],pos,i,n,val;
-	printf("\n Enter the No. of Element...");
+	printf("\n Enter the No. of Element : ");
 	scanf("%d",&n);
-	printf("\n Enter %d Elements...",n);
+	printf("\n Enter %d Elements : ",n);
 	for(i=0;i<n;i++)
 	{
 	scanf("%d",&a[i]);	
 	}
-	printf("\n Enter The position where You wish To INSERT element...");
+	printf("\n Enter The position where You wish To INSERT Element : ");
 	scanf("%d",&pos);
 	printf("\n Enter the Value : ");
 	scanf("%d",&val);
