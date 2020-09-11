@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 	int i,n,a[100],max,pos,b[100],max2,pos1;
 	printf("\n Enter No. of Elements:");
