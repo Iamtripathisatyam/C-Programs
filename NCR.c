@@ -7,13 +7,13 @@ double factorial (int n)
 	fact=fact*i;
 	return fact;
 }
-main()
+int main()
 {
 	int n,r;
 	double ncr;
 	printf("\n Enter the value of n and r: ");
 	scanf("\n%d%d",&n,&r);
 	ncr=factorial(n)/factorial(r)*factorial(n-r);
-	printf("\n value of ncr is:%lf",ncr);
+	printf("\n value of NCR is:%lf",ncr);
 }
 
