@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 	char ch;
 	int i,a=0,b=1,next,n,sum=0,count=0;
