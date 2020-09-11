@@ -1,10 +1,10 @@
- #include<stdio.h>
-main()
+#include<stdio.h>
+int main()
 {
 	int i,n,a[20],min,max,pos,ind;
 	printf("\n Enter No. of Elements:");
 	scanf("%d",&n);//lieutenant governor of ladakh...
-	printf("\n Enter The Elements:");
+	printf("\n Enter The Elements :");
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]); 
