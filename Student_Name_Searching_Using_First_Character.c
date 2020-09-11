@@ -7,7 +7,7 @@ int main()
 	puts("\n How Many Students Are there in class :\n");
 	scanf("%d",&n);
 	fflush(stdin);
-	printf("\n Enter The Names of Students.......\n");
+	printf("\n Enter The Names of Students : \n");
 	for(i=0;i<n;i++)
 	{
 		gets(a[i]);
