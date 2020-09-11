@@ -1,5 +1,5 @@
 #include<stdio.h>
-main(satyamtripathi)
+int main(satyamtripathi)
 {
 	int a,b,c;
 	char ch;
