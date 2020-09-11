@@ -3,7 +3,7 @@ int main()
 {
   int a[20][20],b[20][20],c[20][20];
   int i,j,k,r1,r2,c1,c2;
-  printf("\n Enter the Order of First Matrix...\n");
+  printf("\n Enter the Order of First Matrix : \n");
   scanf("%d%d",&r1,&c1);
   printf("\n Enter the Matrix of Order %d X %d : \n",r1,c1);
   for(i=0;i<r1;i++)
@@ -14,7 +14,7 @@ int main()
 	}
 	printf("\n");
   }
-  printf("\n Enter the Order of Second Matrix...\n");
+  printf("\n Enter the Order of Second Matrix : \n");
   scanf("%d%d",&r2,&c2);
   printf("\n Enter the Matrix of Order %d X %d : \n",r2,c2);
   for(i=0;i<r2;i++)
@@ -37,7 +37,7 @@ int main()
 			  }
 		  }
 	  }
-	  printf("\n Resultant Matrix After MULTIPLICATION....\n");
+	  printf("\n Resultant Matrix After MULTIPLICATION : \n");
 	  for(i=0;i<r1;i++)
 	  {
 	  	for(j=0;j<c2;j++)
