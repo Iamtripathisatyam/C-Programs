@@ -5,7 +5,7 @@ typedef union unvrsty
 	char dept[20];
 	int num;
 }satyam;
-main()
+int mmain()
 {
 	satyam a[100];
 	int n,i;
