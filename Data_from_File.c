@@ -21,7 +21,7 @@ int main()
 	  scanf("%d",&marks);
 	  fprintf(p,"%s\t%s\t%d\t%d",name,branch,rollno,marks);	
 	}
-	printf("\n Record Successfully Saved to file in notepad......");
+	printf("\n Record Successfully Saved to file in Notepad...");
 	fclose(p);
 	// Display the record from the file in notepad.....
 	printf("\n Data of the file stdntrcrd.txt.....");
