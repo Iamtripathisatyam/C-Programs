@@ -1,3 +1,4 @@
+#include<stdio.h>
 int factorial(int n,int f)
 {
 	if(n==0)
@@ -5,7 +6,7 @@ int factorial(int n,int f)
   else
   return factorial (n-1,n*f);
 }
-main(satyam)
+int main(satyam)
 {
 	int n;
 	printf("\n Enter Any Number:");
