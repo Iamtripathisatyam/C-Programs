@@ -1,4 +1,5 @@
-main(satyamtripathi)
+#include<stdio.h>
+int main(satyamtripathi)
 {
 	char uc,lc;
 	int y=lc;
