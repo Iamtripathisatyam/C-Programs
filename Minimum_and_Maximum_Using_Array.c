@@ -1,5 +1,5 @@
- #include<stdio.h>
-main()
+#include<stdio.h>
+int main()
 {
 	int i,n,a[20],min,max,pos,ind;
 	printf("\n Enter No. of Elements:");
