@@ -9,7 +9,7 @@ int main()
 	{
 	scanf("%d",&a[i]);	
 	}
-	printf("\n Enter The position where You wish To INSERT element...");
+	printf("\n Enter The position where You wish To INSERT elemen : ");
 	scanf("%d",&pos);
 	printf("\n Enter the Value : ");
 	scanf("%d",&val);
