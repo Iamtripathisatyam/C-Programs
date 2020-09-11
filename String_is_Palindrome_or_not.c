@@ -8,7 +8,7 @@ int main()
 	strcpy(rev,a);
 	rev==strrev(a);
 	if(strcmp(a,rev)==0)
-	printf("\n The Given String is a palindrome.....");
+	printf("\n The Given String is a Palindrome");
 	else
-	printf("\n The Given String is not a palindrome.....");
+	printf("\n The Given String is not a Palindrome");
 }
