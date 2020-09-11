@@ -7,22 +7,3 @@ int main()
 	max=(a>b)?((a>c)?a:c):((b>c)?b:c);
 	printf("\n Largest No. among three is : %d",max);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
