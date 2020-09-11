@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+	
 	int num,copy,sum=0,d,count=0;
 	printf("\n Enter Any Number:");
 	scanf("\n%d",&num);
