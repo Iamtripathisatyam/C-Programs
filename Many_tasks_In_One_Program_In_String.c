@@ -1,4 +1,5 @@
-main(satyamtripathisoluteyou)
+#include<stdio.h>
+int main(satyamtripathisoluteyou)
 {
 	int num,i,count=0,sum=0,d,copy,fact=1,rev=0;
 	int choice;
