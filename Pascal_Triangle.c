@@ -17,7 +17,7 @@ int NCR(int n,int r)
 int main(satyamtripathi)
 {
 	int n,i,j,k;
-	printf("\n Please Enter The No.of Rows:");
+	printf("\n Please Enter The No.of Rows :");
 	scanf("%d",&n);
 	for(i=0;i<=n;i++)
 	{
