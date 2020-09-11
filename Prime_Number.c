@@ -15,10 +15,10 @@ int prime(int n)
 	else
 	printf("%d is not a prime number:",n);
 }
-main()
+int main()
 {
 	int n;
-	printf("\nEnter any number:");
+	printf("\nEnter any Number :");
 	scanf("\n%d",&n);
 	prime(n);
 }
