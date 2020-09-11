@@ -9,14 +9,14 @@ int prime(int n)
 		}
 	}
  if(count==0&&n!=1)
- printf("\n\n\n\t\a......%d is a PRIME NUMBER.......",n);
+ printf("\n\n\n\t\a%d is a PRIME NUMBER",n);
  else
 printf("\n %d is not a prime number",n);	
 }
 main(satyamtripathi)
 {
 	int n;
-	printf("\n Please Entere Any Number:");
+	printf("\n Please Enter Any Number :");
 	scanf("%d",&n);
 	prime(n);
 }
