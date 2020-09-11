@@ -1,3 +1,4 @@
+#include<stdio.h>
 float ADD(float a,float b)
 {
 	float s;
@@ -10,7 +11,7 @@ float SUB(float a,float b)
 	s=a-b;
 	return s;
 }
-main(satyamtripathi)
+int main(satyamtripathi)
 {
 	float a,b;
 	printf("\n Please Enter Two No:");
