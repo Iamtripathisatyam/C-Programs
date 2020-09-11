@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 	int num,fact=1,i;
 	char choice;
