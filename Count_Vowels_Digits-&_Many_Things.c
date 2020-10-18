@@ -4,7 +4,7 @@ int main(satyam)
 	char text[100];
 	int i,vowel=0,digit=0,conso=0,special=0,space=0;
 	fflush(stdin);
-	printf("\n Enter The Text : \n");
+	printf("\nPlease Enter The Text : \n");
 	gets(text);
 	for(i=0;text[i]!='\0';i++)
 	{
