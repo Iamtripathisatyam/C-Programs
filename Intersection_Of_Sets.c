@@ -14,9 +14,9 @@ int main()
         scanf("%d", &a[i]);
     }
     int d[n1];
-    for(i=0;i<n1;i++)
+    for (i = 0; i < n1; i++)
     {
-      d[i]=1;
+        d[i] = 1;
     }
     for (i = 0; i < n1; i++)
     {
@@ -54,9 +54,9 @@ int main()
         scanf("%d", &b[i]);
     }
     int o[n2];
-    for(i=0;i<n2;i++)
+    for (i = 0; i < n2; i++)
     {
-        o[i]=1;
+        o[i] = 1;
     }
     for (i = 0; i < n2; i++)
     {
@@ -84,7 +84,7 @@ int main()
             z++;
         }
     }
-    int c[l+f], flag = 0, w = 0;
+    int c[l + f], flag = 0, w = 0;
     for (i = 0; i < l; i++)
     {
         flag = 0;
