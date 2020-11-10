@@ -3,16 +3,20 @@
 int main()
 {
     system("cls");
-    int a[20], b[20];
     int i, n1, n2, j = 0, k = 0, l = 0, f = 0;
-    int d[50] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
     printf("\n\t\tHow Many Elements Do You Want To Enter in SET 1: ");
     scanf("%d", &n1);
+    int a[n1];
     printf("\n");
     for (i = 0; i < n1; i++)
     {
         printf("\t\tEnter %d Element: ", i + 1);
         scanf("%d", &a[i]);
+    }
+    int d[n1];
+    for(i=0;i<n1;i++)
+    {
+      d[i]=1;
     }
     for (i = 0; i < n1; i++)
     {
@@ -40,14 +44,19 @@ int main()
             y++;
         }
     }
-    int o[50] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
     printf("\n\t\tHow Many Elements Do You Want To Enter in SET 2: ");
     scanf("%d", &n2);
+    int b[n2];
     printf("\n");
     for (i = 0; i < n2; i++)
     {
         printf("\t\tEnter %d Element: ", i + 1);
         scanf("%d", &b[i]);
+    }
+    int o[n2];
+    for(i=0;i<n2;i++)
+    {
+        o[i]=1;
     }
     for (i = 0; i < n2; i++)
     {
@@ -75,7 +84,7 @@ int main()
             z++;
         }
     }
-    int c[20], flag = 0, w = 0;
+    int c[l+f], flag = 0, w = 0;
     for (i = 0; i < l; i++)
     {
         flag = 0;
