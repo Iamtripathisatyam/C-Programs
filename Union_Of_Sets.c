@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 int main()
 {
     system("cls");
-    int a[20], c[20], b[20];
     int i, n1, n2, j = 0, k = 0;
-    int d[50] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
     printf("\n\t\tHow Many Elements Do You Want To Enter in SET 1: ");
     scanf("%d", &n1);
+    int a[n1];
     printf("\n");
     for (i = 0; i < n1; i++)
     {
@@ -16,11 +15,18 @@ int main()
     }
     printf("\n\t\tHow Many Elements Do You Want To Enter in SET 2: ");
     scanf("%d", &n2);
+    int b[n2];
     printf("\n");
     for (i = 0; i < n2; i++)
     {
         printf("\t\tEnter %d Element: ", i + 1);
         scanf("%d", &b[i]);
+    }
+    int c[n1 + n2];
+    int d[n1 + n2];
+    for (i = 0; i < n1 + n2; i++)
+    {
+        d[i] = 1;
     }
     for (i = 0; i < n1; i++)
     {
