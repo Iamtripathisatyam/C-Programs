@@ -4,6 +4,10 @@
 <img src="https://forthebadge.com/images/badges/built-by-developers.svg" />
 </p>
 
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{C-Programs}/count.svg" alt=Iamtripathisatyam />
+</p>
+
 _______________________________
 
 ### <h1 align="center"><a href="https://github.com/Iamtripathisatyam/C-Programs/tree/master/C%20Programs">**`C PROGRAMS`**</a><h1/>
@@ -19,7 +23,6 @@ _______________________________________
 
 
 <p align="center">
-<img src="https://badges.pufler.dev/visits/Iamtripathisatyam/C-Programs?style=for-the-badge&logo=github&logoColor=yellow" />
 <img src="https://badges.pufler.dev/updated/Iamtripathisatyam/C-Programs?style=for-the-badge&logo=github&logoColor=yellow" />
 <img src="https://badges.pufler.dev/created/Iamtripathisatyam/C-Programs?style=for-the-badge&logo=github&logoColor=yellow" />
 </p>
